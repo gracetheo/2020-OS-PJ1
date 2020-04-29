@@ -25,7 +25,7 @@ int main (int argc, char *argv[]) {
     scanf("%s %d %d", proc[i].name, &proc[i].ready_time, &proc[i].exec_time);
   }
 
-	// sort processes based on ready time
+  // sort processes based on ready time
   qsort(proc, total_proc, sizeof(process), R);
 
 	for(int i = 0; i < total_proc; i++)
